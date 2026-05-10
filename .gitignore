@@ -1,0 +1,43 @@
+# cache ve compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled C++
+sat_solver
+sat_solver.exe
+*.o
+*.obj
+*.out
+
+# Results (buyuk dosyalar, optional)
+# results/
+# plots/

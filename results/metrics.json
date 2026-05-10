@@ -1,0 +1,409 @@
+{
+  "speedup_data": {
+    "problem01.cnf": {
+      "2": {
+        "speedup": 0.0101,
+        "efficiency": 0.005,
+        "serial_time": 1.4e-05,
+        "parallel_time": 0.001381
+      },
+      "4": {
+        "speedup": 0.018,
+        "efficiency": 0.0045,
+        "serial_time": 1.4e-05,
+        "parallel_time": 0.000773
+      }
+    },
+    "problem02.cnf": {
+      "2": {
+        "speedup": 0.0544,
+        "efficiency": 0.0272,
+        "serial_time": 4.1e-05,
+        "parallel_time": 0.000752
+      },
+      "4": {
+        "speedup": 0.0612,
+        "efficiency": 0.0153,
+        "serial_time": 4.1e-05,
+        "parallel_time": 0.000669
+      }
+    },
+    "problem03.cnf": {
+      "2": {
+        "speedup": 0.2504,
+        "efficiency": 0.1252,
+        "serial_time": 0.000192,
+        "parallel_time": 0.000768
+      },
+      "4": {
+        "speedup": 0.1405,
+        "efficiency": 0.0351,
+        "serial_time": 0.000192,
+        "parallel_time": 0.001368
+      }
+    },
+    "problem04.cnf": {
+      "2": {
+        "speedup": 0.6075,
+        "efficiency": 0.3038,
+        "serial_time": 0.000935,
+        "parallel_time": 0.001539
+      },
+      "4": {
+        "speedup": 0.5744,
+        "efficiency": 0.1436,
+        "serial_time": 0.000935,
+        "parallel_time": 0.001627
+      }
+    },
+    "problem05.cnf": {
+      "2": {
+        "speedup": 0.9573,
+        "efficiency": 0.4786,
+        "serial_time": 0.008574,
+        "parallel_time": 0.008957
+      },
+      "4": {
+        "speedup": 0.9084,
+        "efficiency": 0.2271,
+        "serial_time": 0.008574,
+        "parallel_time": 0.009439
+      }
+    }
+  },
+  "raw_results": [
+    {
+      "problem": "problem01.cnf",
+      "solver": "DPLL",
+      "time": 0.0004450999840628356,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 5,
+      "num_clauses": 10
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "Resolution",
+      "time": 0.004414700000779703,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 5,
+      "num_clauses": 10
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "BruteForce",
+      "time": 1.3899989426136017e-05,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 5,
+      "num_clauses": 10
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0013805999769829214,
+      "num_threads": 2,
+      "status": "SAT",
+      "num_vars": 5,
+      "num_clauses": 10
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0007731000077910721,
+      "num_threads": 4,
+      "status": "SAT",
+      "num_vars": 5,
+      "num_clauses": 10
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "DPLL",
+      "time": 0.00010350000229664147,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 8,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "Resolution",
+      "time": 0.17861730000004172,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 8,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "BruteForce",
+      "time": 4.089999129064381e-05,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 8,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0007517999911215156,
+      "num_threads": 2,
+      "status": "SAT",
+      "num_vars": 8,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0006686999986413866,
+      "num_threads": 4,
+      "status": "SAT",
+      "num_vars": 8,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "DPLL",
+      "time": 0.00015639999764971435,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 10,
+      "num_clauses": 30
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "Resolution",
+      "time": 5.000402599980589,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 10,
+      "num_clauses": 30
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "BruteForce",
+      "time": 0.0001922000083141029,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 10,
+      "num_clauses": 30
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0007676999957766384,
+      "num_threads": 2,
+      "status": "SAT",
+      "num_vars": 10,
+      "num_clauses": 30
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "ParallelBF",
+      "time": 0.001368400000501424,
+      "num_threads": 4,
+      "status": "SAT",
+      "num_vars": 10,
+      "num_clauses": 30
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "DPLL",
+      "time": 0.00031889998354017735,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 12,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "Resolution",
+      "time": 5.034483399998862,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 12,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "BruteForce",
+      "time": 0.0009348000166937709,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 12,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0015386999875772744,
+      "num_threads": 2,
+      "status": "SAT",
+      "num_vars": 12,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "ParallelBF",
+      "time": 0.0016274999943561852,
+      "num_threads": 4,
+      "status": "SAT",
+      "num_vars": 12,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "DPLL",
+      "time": 0.00032220000866800547,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 15,
+      "num_clauses": 50
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "Resolution",
+      "time": 5.058044700010214,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 15,
+      "num_clauses": 50
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "BruteForce",
+      "time": 0.008574400009820238,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 15,
+      "num_clauses": 50
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "ParallelBF",
+      "time": 0.008957100013503805,
+      "num_threads": 2,
+      "status": "SAT",
+      "num_vars": 15,
+      "num_clauses": 50
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "ParallelBF",
+      "time": 0.009438900015084073,
+      "num_threads": 4,
+      "status": "SAT",
+      "num_vars": 15,
+      "num_clauses": 50
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "DPLL",
+      "time": 7.099995855242014e-06,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 5,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "Resolution",
+      "time": 3.57000099029392e-05,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 5,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "BruteForce",
+      "time": 3.279998782090843e-05,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 5,
+      "num_clauses": 20
+    },
+    {
+      "problem": "problem07.cnf",
+      "solver": "DPLL",
+      "time": 0.0012449999921955168,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 18,
+      "num_clauses": 70
+    },
+    {
+      "problem": "problem07.cnf",
+      "solver": "Resolution",
+      "time": 5.40150549999089,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 18,
+      "num_clauses": 70
+    },
+    {
+      "problem": "problem08.cnf",
+      "solver": "DPLL",
+      "time": 0.0017001999949570745,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 20,
+      "num_clauses": 85
+    },
+    {
+      "problem": "problem08.cnf",
+      "solver": "Resolution",
+      "time": 5.004650400020182,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 20,
+      "num_clauses": 85
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "DPLL",
+      "time": 1.0299991117790341e-05,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 10,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "Resolution",
+      "time": 0.00010149998706765473,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 10,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "BruteForce",
+      "time": 0.0014691000105813146,
+      "num_threads": 1,
+      "status": "UNSAT",
+      "num_vars": 10,
+      "num_clauses": 40
+    },
+    {
+      "problem": "problem10.cnf",
+      "solver": "DPLL",
+      "time": 0.0009828000038396567,
+      "num_threads": 1,
+      "status": "SAT",
+      "num_vars": 22,
+      "num_clauses": 91
+    },
+    {
+      "problem": "problem10.cnf",
+      "solver": "Resolution",
+      "time": 5.1429691999801435,
+      "num_threads": 1,
+      "status": "UNKNOWN",
+      "num_vars": 22,
+      "num_clauses": 91
+    }
+  ]
+}

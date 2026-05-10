@@ -1,0 +1,1073 @@
+{
+  "timestamp": "2026-05-10T05:13:01.161206",
+  "total_problems": 37,
+  "results": [
+    {
+      "problem": "problem01.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.0004450999840628356,
+      "num_vars": 5,
+      "num_clauses": 10,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": true,
+        "x5": true
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stats": {
+        "decisions": 2,
+        "unit_propagations": 1,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "Resolution",
+      "status": "SAT",
+      "time": 0.004414700000779703,
+      "num_vars": 5,
+      "num_clauses": 10,
+      "stats": {
+        "resolutions": 1797,
+        "new_clauses": 43
+      }
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "BruteForce",
+      "status": "SAT",
+      "time": 1.3899989426136017e-05,
+      "num_vars": 5,
+      "num_clauses": 10,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        -4,
+        -5
+      ],
+      "stats": {
+        "combinations_tested": 2
+      }
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "ParallelBF-2T",
+      "status": "SAT",
+      "time": 0.0013805999769829214,
+      "num_vars": 5,
+      "num_clauses": 10,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        -4,
+        -5
+      ],
+      "stats": {
+        "num_processes": 2,
+        "combinations_tested": 32,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem01.cnf",
+      "solver": "ParallelBF-4T",
+      "status": "SAT",
+      "time": 0.0007731000077910721,
+      "num_vars": 5,
+      "num_clauses": 10,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        -4,
+        -5
+      ],
+      "stats": {
+        "num_processes": 4,
+        "combinations_tested": 32,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.00010350000229664147,
+      "num_vars": 8,
+      "num_clauses": 20,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        4,
+        -5,
+        -6,
+        7,
+        8
+      ],
+      "stats": {
+        "decisions": 2,
+        "unit_propagations": 0,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "Resolution",
+      "status": "SAT",
+      "time": 0.17861730000004172,
+      "num_vars": 8,
+      "num_clauses": 20,
+      "stats": {
+        "resolutions": 37069,
+        "new_clauses": 248
+      }
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "BruteForce",
+      "status": "SAT",
+      "time": 4.089999129064381e-05,
+      "num_vars": 8,
+      "num_clauses": 20,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": true,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": false,
+        "x8": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        3,
+        4,
+        -5,
+        -6,
+        -7,
+        -8
+      ],
+      "stats": {
+        "combinations_tested": 14
+      }
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "ParallelBF-2T",
+      "status": "SAT",
+      "time": 0.0007517999911215156,
+      "num_vars": 8,
+      "num_clauses": 20,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": true,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": false,
+        "x8": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        3,
+        4,
+        -5,
+        -6,
+        -7,
+        -8
+      ],
+      "stats": {
+        "num_processes": 2,
+        "combinations_tested": 256,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem02.cnf",
+      "solver": "ParallelBF-4T",
+      "status": "SAT",
+      "time": 0.0006686999986413866,
+      "num_vars": 8,
+      "num_clauses": 20,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": true,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": false,
+        "x8": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        3,
+        4,
+        -5,
+        -6,
+        -7,
+        -8
+      ],
+      "stats": {
+        "num_processes": 4,
+        "combinations_tested": 256,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.00015639999764971435,
+      "num_vars": 10,
+      "num_clauses": 30,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": true
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        4,
+        -5,
+        -6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "stats": {
+        "decisions": 3,
+        "unit_propagations": 4,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.000402599980589,
+      "num_vars": 10,
+      "num_clauses": 30,
+      "stats": {
+        "resolutions": 279274,
+        "new_clauses": 2052
+      }
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "BruteForce",
+      "status": "SAT",
+      "time": 0.0001922000083141029,
+      "num_vars": 10,
+      "num_clauses": 30,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": false,
+        "x9": false,
+        "x10": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        4,
+        -5,
+        -6,
+        7,
+        -8,
+        -9,
+        -10
+      ],
+      "stats": {
+        "combinations_tested": 74
+      }
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "ParallelBF-2T",
+      "status": "SAT",
+      "time": 0.0007676999957766384,
+      "num_vars": 10,
+      "num_clauses": 30,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": false,
+        "x9": false,
+        "x10": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        4,
+        -5,
+        -6,
+        7,
+        -8,
+        -9,
+        -10
+      ],
+      "stats": {
+        "num_processes": 2,
+        "combinations_tested": 1024,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem03.cnf",
+      "solver": "ParallelBF-4T",
+      "status": "SAT",
+      "time": 0.001368400000501424,
+      "num_vars": 10,
+      "num_clauses": 30,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": true,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": false,
+        "x9": false,
+        "x10": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        4,
+        -5,
+        -6,
+        7,
+        -8,
+        -9,
+        -10
+      ],
+      "stats": {
+        "num_processes": 4,
+        "combinations_tested": 1024,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.00031889998354017735,
+      "num_vars": 12,
+      "num_clauses": 40,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": false,
+        "x5": false,
+        "x6": true,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": true,
+        "x11": false,
+        "x12": false
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        -4,
+        -5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        -11,
+        -12
+      ],
+      "stats": {
+        "decisions": 5,
+        "unit_propagations": 8,
+        "backtracks": 1
+      }
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.034483399998862,
+      "num_vars": 12,
+      "num_clauses": 40,
+      "stats": {
+        "resolutions": 141025,
+        "new_clauses": 5289
+      }
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "BruteForce",
+      "status": "SAT",
+      "time": 0.0009348000166937709,
+      "num_vars": 12,
+      "num_clauses": 40,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": false,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": false
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        -4,
+        -5,
+        -6,
+        7,
+        8,
+        9,
+        -10,
+        -11,
+        -12
+      ],
+      "stats": {
+        "combinations_tested": 456
+      }
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "ParallelBF-2T",
+      "status": "SAT",
+      "time": 0.0015386999875772744,
+      "num_vars": 12,
+      "num_clauses": 40,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": false,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": false
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        -4,
+        -5,
+        -6,
+        7,
+        8,
+        9,
+        -10,
+        -11,
+        -12
+      ],
+      "stats": {
+        "num_processes": 2,
+        "combinations_tested": 4096,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem04.cnf",
+      "solver": "ParallelBF-4T",
+      "status": "SAT",
+      "time": 0.0016274999943561852,
+      "num_vars": 12,
+      "num_clauses": 40,
+      "solution": {
+        "x1": true,
+        "x2": true,
+        "x3": true,
+        "x4": false,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": false
+      },
+      "first_20_vars": [
+        1,
+        2,
+        3,
+        -4,
+        -5,
+        -6,
+        7,
+        8,
+        9,
+        -10,
+        -11,
+        -12
+      ],
+      "stats": {
+        "num_processes": 4,
+        "combinations_tested": 4096,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.00032220000866800547,
+      "num_vars": 15,
+      "num_clauses": 50,
+      "solution": {
+        "x1": false,
+        "x2": true,
+        "x3": true,
+        "x4": true,
+        "x5": true,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": true,
+        "x13": false,
+        "x14": true,
+        "x15": false
+      },
+      "first_20_vars": [
+        -1,
+        2,
+        3,
+        4,
+        5,
+        -6,
+        7,
+        8,
+        9,
+        -10,
+        -11,
+        12,
+        -13,
+        14,
+        -15
+      ],
+      "stats": {
+        "decisions": 4,
+        "unit_propagations": 5,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.058044700010214,
+      "num_vars": 15,
+      "num_clauses": 50,
+      "stats": {
+        "resolutions": 139425,
+        "new_clauses": 5652
+      }
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "BruteForce",
+      "status": "SAT",
+      "time": 0.008574400009820238,
+      "num_vars": 15,
+      "num_clauses": 50,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": true,
+        "x6": true,
+        "x7": false,
+        "x8": false,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": true,
+        "x13": false,
+        "x14": false,
+        "x15": false
+      },
+      "first_20_vars": [
+        -1,
+        -2,
+        -3,
+        -4,
+        5,
+        6,
+        -7,
+        -8,
+        9,
+        -10,
+        -11,
+        12,
+        -13,
+        -14,
+        -15
+      ],
+      "stats": {
+        "combinations_tested": 2353
+      }
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "ParallelBF-2T",
+      "status": "SAT",
+      "time": 0.008957100013503805,
+      "num_vars": 15,
+      "num_clauses": 50,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": true,
+        "x6": true,
+        "x7": false,
+        "x8": false,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": true,
+        "x13": false,
+        "x14": false,
+        "x15": false
+      },
+      "first_20_vars": [
+        -1,
+        -2,
+        -3,
+        -4,
+        5,
+        6,
+        -7,
+        -8,
+        9,
+        -10,
+        -11,
+        12,
+        -13,
+        -14,
+        -15
+      ],
+      "stats": {
+        "num_processes": 2,
+        "combinations_tested": 32768,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem05.cnf",
+      "solver": "ParallelBF-4T",
+      "status": "SAT",
+      "time": 0.009438900015084073,
+      "num_vars": 15,
+      "num_clauses": 50,
+      "solution": {
+        "x1": false,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": true,
+        "x6": true,
+        "x7": false,
+        "x8": false,
+        "x9": true,
+        "x10": false,
+        "x11": false,
+        "x12": true,
+        "x13": false,
+        "x14": false,
+        "x15": false
+      },
+      "first_20_vars": [
+        -1,
+        -2,
+        -3,
+        -4,
+        5,
+        6,
+        -7,
+        -8,
+        9,
+        -10,
+        -11,
+        12,
+        -13,
+        -14,
+        -15
+      ],
+      "stats": {
+        "num_processes": 4,
+        "combinations_tested": 32768,
+        "solving_process": 0
+      }
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "DPLL",
+      "status": "UNSAT",
+      "time": 7.099995855242014e-06,
+      "num_vars": 5,
+      "num_clauses": 20,
+      "stats": {
+        "decisions": 0,
+        "unit_propagations": 1,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "Resolution",
+      "status": "UNSAT",
+      "time": 3.57000099029392e-05,
+      "num_vars": 5,
+      "num_clauses": 20,
+      "stats": {
+        "resolutions": 8,
+        "new_clauses": 0
+      }
+    },
+    {
+      "problem": "problem06.cnf",
+      "solver": "BruteForce",
+      "status": "UNSAT",
+      "time": 3.279998782090843e-05,
+      "num_vars": 5,
+      "num_clauses": 20,
+      "stats": {
+        "combinations_tested": 32
+      }
+    },
+    {
+      "problem": "problem07.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.0012449999921955168,
+      "num_vars": 18,
+      "num_clauses": 70,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": true,
+        "x5": true,
+        "x6": false,
+        "x7": false,
+        "x8": false,
+        "x9": false,
+        "x10": true,
+        "x11": true,
+        "x12": false,
+        "x13": true,
+        "x14": true,
+        "x15": false,
+        "x16": false,
+        "x17": false,
+        "x18": true
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        4,
+        5,
+        -6,
+        -7,
+        -8,
+        -9,
+        10,
+        11,
+        -12,
+        13,
+        14,
+        -15,
+        -16,
+        -17,
+        18
+      ],
+      "stats": {
+        "decisions": 10,
+        "unit_propagations": 60,
+        "backtracks": 8
+      }
+    },
+    {
+      "problem": "problem07.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.40150549999089,
+      "num_vars": 18,
+      "num_clauses": 70,
+      "stats": {
+        "resolutions": 65456,
+        "new_clauses": 20171
+      }
+    },
+    {
+      "problem": "problem08.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.0017001999949570745,
+      "num_vars": 20,
+      "num_clauses": 85,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": false,
+        "x5": false,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": true,
+        "x10": false,
+        "x11": true,
+        "x12": true,
+        "x13": true,
+        "x14": false,
+        "x15": false,
+        "x16": true,
+        "x17": false,
+        "x18": true,
+        "x19": false,
+        "x20": false
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        -4,
+        -5,
+        -6,
+        7,
+        8,
+        9,
+        -10,
+        11,
+        12,
+        13,
+        -14,
+        -15,
+        16,
+        -17,
+        18,
+        -19,
+        -20
+      ],
+      "stats": {
+        "decisions": 9,
+        "unit_propagations": 82,
+        "backtracks": 7
+      }
+    },
+    {
+      "problem": "problem08.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.004650400020182,
+      "num_vars": 20,
+      "num_clauses": 85,
+      "stats": {
+        "resolutions": 82698,
+        "new_clauses": 37155
+      }
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "DPLL",
+      "status": "UNSAT",
+      "time": 1.0299991117790341e-05,
+      "num_vars": 10,
+      "num_clauses": 40,
+      "stats": {
+        "decisions": 0,
+        "unit_propagations": 1,
+        "backtracks": 0
+      }
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "Resolution",
+      "status": "UNSAT",
+      "time": 0.00010149998706765473,
+      "num_vars": 10,
+      "num_clauses": 40,
+      "stats": {
+        "resolutions": 25,
+        "new_clauses": 0
+      }
+    },
+    {
+      "problem": "problem09.cnf",
+      "solver": "BruteForce",
+      "status": "UNSAT",
+      "time": 0.0014691000105813146,
+      "num_vars": 10,
+      "num_clauses": 40,
+      "stats": {
+        "combinations_tested": 1024
+      }
+    },
+    {
+      "problem": "problem10.cnf",
+      "solver": "DPLL",
+      "status": "SAT",
+      "time": 0.0009828000038396567,
+      "num_vars": 22,
+      "num_clauses": 91,
+      "solution": {
+        "x1": true,
+        "x2": false,
+        "x3": false,
+        "x4": true,
+        "x5": true,
+        "x6": false,
+        "x7": true,
+        "x8": true,
+        "x9": false,
+        "x10": true,
+        "x11": true,
+        "x12": true,
+        "x13": false,
+        "x14": false,
+        "x15": true,
+        "x16": true,
+        "x17": true,
+        "x18": true,
+        "x19": true,
+        "x20": false,
+        "x21": false,
+        "x22": true
+      },
+      "first_20_vars": [
+        1,
+        -2,
+        -3,
+        4,
+        5,
+        -6,
+        7,
+        8,
+        -9,
+        10,
+        11,
+        12,
+        -13,
+        -14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        -20
+      ],
+      "stats": {
+        "decisions": 8,
+        "unit_propagations": 31,
+        "backtracks": 3
+      }
+    },
+    {
+      "problem": "problem10.cnf",
+      "solver": "Resolution",
+      "status": "UNKNOWN",
+      "time": 5.1429691999801435,
+      "num_vars": 22,
+      "num_clauses": 91,
+      "stats": {
+        "resolutions": 110321,
+        "new_clauses": 32510
+      }
+    }
+  ]
+}

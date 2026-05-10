@@ -1,0 +1,38 @@
+problem,solver,status,time,num_vars,num_clauses,first_20_vars
+problem01.cnf,DPLL,SAT,0.000445,5,10,1 2 3 4 5
+problem01.cnf,Resolution,SAT,0.004415,5,10,N/A
+problem01.cnf,BruteForce,SAT,0.000014,5,10,1 -2 -3 -4 -5
+problem01.cnf,ParallelBF-2T,SAT,0.001381,5,10,1 -2 -3 -4 -5
+problem01.cnf,ParallelBF-4T,SAT,0.000773,5,10,1 -2 -3 -4 -5
+problem02.cnf,DPLL,SAT,0.000104,8,20,1 2 3 4 -5 -6 7 8
+problem02.cnf,Resolution,SAT,0.178617,8,20,N/A
+problem02.cnf,BruteForce,SAT,0.000041,8,20,1 -2 3 4 -5 -6 -7 -8
+problem02.cnf,ParallelBF-2T,SAT,0.000752,8,20,1 -2 3 4 -5 -6 -7 -8
+problem02.cnf,ParallelBF-4T,SAT,0.000669,8,20,1 -2 3 4 -5 -6 -7 -8
+problem03.cnf,DPLL,SAT,0.000156,10,30,1 2 3 4 -5 -6 7 8 9 10
+problem03.cnf,Resolution,UNKNOWN,5.000403,10,30,N/A
+problem03.cnf,BruteForce,SAT,0.000192,10,30,1 -2 -3 4 -5 -6 7 -8 -9 -10
+problem03.cnf,ParallelBF-2T,SAT,0.000768,10,30,1 -2 -3 4 -5 -6 7 -8 -9 -10
+problem03.cnf,ParallelBF-4T,SAT,0.001368,10,30,1 -2 -3 4 -5 -6 7 -8 -9 -10
+problem04.cnf,DPLL,SAT,0.000319,12,40,1 2 3 -4 -5 6 7 8 9 10 -11 -12
+problem04.cnf,Resolution,UNKNOWN,5.034483,12,40,N/A
+problem04.cnf,BruteForce,SAT,0.000935,12,40,1 2 3 -4 -5 -6 7 8 9 -10 -11 -12
+problem04.cnf,ParallelBF-2T,SAT,0.001539,12,40,1 2 3 -4 -5 -6 7 8 9 -10 -11 -12
+problem04.cnf,ParallelBF-4T,SAT,0.001627,12,40,1 2 3 -4 -5 -6 7 8 9 -10 -11 -12
+problem05.cnf,DPLL,SAT,0.000322,15,50,-1 2 3 4 5 -6 7 8 9 -10 -11 12 -13 14 -15
+problem05.cnf,Resolution,UNKNOWN,5.058045,15,50,N/A
+problem05.cnf,BruteForce,SAT,0.008574,15,50,-1 -2 -3 -4 5 6 -7 -8 9 -10 -11 12 -13 -14 -15
+problem05.cnf,ParallelBF-2T,SAT,0.008957,15,50,-1 -2 -3 -4 5 6 -7 -8 9 -10 -11 12 -13 -14 -15
+problem05.cnf,ParallelBF-4T,SAT,0.009439,15,50,-1 -2 -3 -4 5 6 -7 -8 9 -10 -11 12 -13 -14 -15
+problem06.cnf,DPLL,UNSAT,0.000007,5,20,N/A
+problem06.cnf,Resolution,UNSAT,0.000036,5,20,N/A
+problem06.cnf,BruteForce,UNSAT,0.000033,5,20,N/A
+problem07.cnf,DPLL,SAT,0.001245,18,70,1 -2 -3 4 5 -6 -7 -8 -9 10 11 -12 13 14 -15 -16 -17 18
+problem07.cnf,Resolution,UNKNOWN,5.401505,18,70,N/A
+problem08.cnf,DPLL,SAT,0.001700,20,85,1 -2 -3 -4 -5 -6 7 8 9 -10 11 12 13 -14 -15 16 -17 18 -19 -20
+problem08.cnf,Resolution,UNKNOWN,5.004650,20,85,N/A
+problem09.cnf,DPLL,UNSAT,0.000010,10,40,N/A
+problem09.cnf,Resolution,UNSAT,0.000101,10,40,N/A
+problem09.cnf,BruteForce,UNSAT,0.001469,10,40,N/A
+problem10.cnf,DPLL,SAT,0.000983,22,91,1 -2 -3 4 5 -6 7 8 -9 10 11 12 -13 -14 15 16 17 18 19 -20 ... (+2 more)
+problem10.cnf,Resolution,UNKNOWN,5.142969,22,91,N/A
